@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Bitter', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.detail_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.detail_list h1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 20px 0px;
+  text-transform: capitalize;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.detail_list img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  object-fit: contain;
+}
+
+.detail_list h3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 43px;
+  font-weight: 400;
+  font-size: 27px;
+}
+.detail_btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.detail_btn button {
+  margin: 10px;
+  background: #5f96cf;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.overall_model {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #00000080;
+    height: 100%;
+    z-index: 9;
+    overflow: hidden;
+    left: 0;
+}
+
+.content_model {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    width: 36%;
+    justify-content: center;
+    padding: 30px;
+    top: 100px;
+    text-align: center;
+}
+.carlist_overall {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.carlist_overall ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px;
+}
+
+.carlist_overall li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 16%;
+  justify-content: center;
+}
+
+.carlist_overall li h6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+  padding: 14px 0px;
+}
+
+.carlist_overall li img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+.incre {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.incre span {
+  width: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 15%;
+  justify-content: center;
+  border: 1px solid #000;
+  align-items: center;
+  margin: 0px 9px;
+  cursor: pointer;
+}
+.clear {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.clear h4 {width: 100%;display: flex;padding: 8px 0px;justify-content: flex-end;}

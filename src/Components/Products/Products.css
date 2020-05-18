@@ -1,0 +1,89 @@
+h2.title_blog {
+    text-align: center;
+    margin: 30px 0px;
+}
+.product_overalls {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.product_view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 21%;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 2px #00000026;
+    padding: 20px;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+}
+button.added-cart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 120px;
+    padding: 6px;
+    border-radius: 6px;
+    color: #00000061;
+    border: none;
+    cursor: no-drop;
+}
+button.addtocart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    width: 120px;
+    padding: 6px;
+    border-radius: 6px;
+    background: #5f96cf;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.product_view img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.product_btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.product_btn button.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    width: 146px;
+    background: #5f96cf;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.product_btn h5 {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+}
+.product_btn button.active[disabled] {
+    background: #ddd;
+}
+.product_btn h6 {
+    width: 100%;
+    text-align: center;
+}
